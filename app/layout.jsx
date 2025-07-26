@@ -1,4 +1,4 @@
-export default function RootLayout({ children }) {
+function RootLayout({ children }) {
   return (
     <html lang="ja-JP">
       <body>{children}</body>
