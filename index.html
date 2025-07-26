@@ -5,7 +5,9 @@
   <title>NextCDN JSX Demo</title>
 
   <!-- Next CDN -->
-  <script type="module" src="https://cdn.jsdelivr.net/npm/next@15.4/dist/compiled/amphtml-validator/index.min.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/next@15.4/dist/compiled/amphtml-validator/index.min.js">
+    const currentDir = new URL('.', import.meta.url).pathname;
+  </script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/next@15.4/font/google/target.min.css">
 
   <!-- Babel CDN -->
