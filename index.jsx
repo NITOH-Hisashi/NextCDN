@@ -1,3 +1,3 @@
-export default function root() {
+function root() {
   return RootLayout(Page);
 }
