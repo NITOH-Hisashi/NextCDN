@@ -1,5 +1,5 @@
 # NextCDN
-Next,jsをCDNで使う
+Next,jsをCDNで使えない
 
 ## 参考
 https://www.jsdelivr.com/package/npm/next
