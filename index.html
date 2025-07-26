@@ -4,14 +4,16 @@
   <meta charset="UTF-8" />
   <title>NextCDN JSX Demo</title>
 
-  <!-- Next CDN -->
-  <script type="module" src="https://cdn.jsdelivr.net/npm/next@15.4/dist/compiled/amphtml-validator/index.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/next@15.4/font/google/target.min.css">
-
   <script type="module">
     const currentDir = new URL('.', import.meta.url).pathname;
     console.log('Current directory:', currentDir);
+
+    const __dirname = './';
   </script>
+
+  <!-- Next CDN -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/next@15.4/dist/compiled/amphtml-validator/index.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/next@15.4/font/google/target.min.css">
 
   <!-- Babel CDN -->
   <script src="https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js"></script>
